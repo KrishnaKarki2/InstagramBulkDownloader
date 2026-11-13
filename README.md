@@ -45,3 +45,5 @@ python photodownloader.py
 
 #### After you have completed these steps, photos should go into photos/ subfolders by username 
 
+### Have fun 
+

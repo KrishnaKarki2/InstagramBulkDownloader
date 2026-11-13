@@ -8,7 +8,7 @@ By using this software, you agree to the following terms
 * **Ethical Use Only**: Do not use this tool to scrape private data, harass individuals, or redistribute content without the explicit consent of the original creator(s)
 * **User Responsibility**: You assume all risks associated with the use of this software
 
-Instagram Terms of Service: https://help.instagram.com/581066165581870/ 
+**Instagram Terms of Service:** https://help.instagram.com/581066165581870/ 
 
 **This tool is not affiliated with Instagram, Meta, or Apify** 
 

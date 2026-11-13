@@ -21,9 +21,25 @@ This tool was created because many similar bulk downloader tools get blocked fro
 ## Usage 
 ### Set-up (Google Colab)
 1. Make a free Apify account, copy your API token: https://console.apify.com/account/integrations
-2. Open json-extractor.ipynb, and paste your API token
+
+2. Open json-extractor.ipynb in Google Colab, and paste your API token
+https://github.com/KrishnaKarki2/InstagramBulkDownloader/blob/0e7d8817fa3a60080d00f331a5758b254e886f9e/json-extractor.ipynb#L29
+
 3. Add your desired profiles in the usernames list 
 https://github.com/KrishnaKarki2/InstagramBulkDownloader/blob/65b66bc4e3153f6bafb1eddf636eff7e6b645102/json-extractor.ipynb#L31-L33
+
 4. Run the cell
-5. Download the JSON file once the cell has completed running.
+
+5. Once the cell has completed running, go to https://console.apify.com/storage/datasets and download the dataset as a JSON file
+
+6. Make a folder with the newly created JSON file and photodownloaders.py 
+
+7. In your terminal / VS Code, run
+```
+python photodownloader.py
+# this will not work in Colab as Instagram frequently blocks datacenter IPs
+```
+
+#### After you have completed these steps, photos should go into photos/ subfolders by username 
+
 

@@ -19,9 +19,11 @@ Bulk-download photos from public Instagram profiles. No Instagram login required
 This tool was created because many similar bulk downloader tools get blocked from datacenter IPs (such as Google Colab), request account logins (putting your account at risk), or offer a limited bulk download on a free plan. This repository offers a risk-free way of handing bulk downloads using Apify's hosted scraper over the cloud rather than with your IP. Photos can be later downloaded onto your computer. 
 
 ## Usage 
-
+### Set-up (Google Colab)
 1. Make a free Apify account, copy your API token: https://console.apify.com/account/integrations
-2. Open json-extractor.ipynb (preferably in Google Colab), and paste your API token
-3. Add your desired profiles in line 8 
+2. Open json-extractor.ipynb, and paste your API token
+3. Add your desired profiles in the usernames list 
+https://github.com/KrishnaKarki2/InstagramBulkDownloader/blob/65b66bc4e3153f6bafb1eddf636eff7e6b645102/json-extractor.ipynb#L31-L33
 4. Run the cell
+5. Download the JSON file once the cell has completed running.
 

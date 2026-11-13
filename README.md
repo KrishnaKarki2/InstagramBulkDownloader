@@ -12,6 +12,10 @@ Instagram Terms of Service: https://help.instagram.com/581066165581870/
 
 **This tool is not affiliated with Instagram, Meta, or Apify** 
 
+<br>
+
+## Introduction 
+
 This tool was created because many similar bulk downloader tools get blocked from datacenter IPs (such as Google Colab), request account logins (putting your account at risk), or offer a limited bulk download on a free plan. This repository offers a risk-free way of handing bulk downloads using Apify's hosted scraper over the cloud rather than with your IP. Photos can be later downloaded onto your computer. 
 
 ## Usage 

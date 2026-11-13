@@ -34,7 +34,7 @@ https://github.com/KrishnaKarki2/InstagramBulkDownloader/blob/65b66bc4e3153f6baf
 
 6. Make a folder with the newly created JSON file and photodownloaders.py 
 
-7. In your terminal / VS Code, add the name of your json file to this line 
+7. In your terminal / VS Code, add the name of your JSON file to this line 
 https://github.com/KrishnaKarki2/InstagramBulkDownloader/blob/9aa4ab363e0ad1c32e0614573d8ad11d22948f76/photodownloader.py#L5
 
 8. Run 
@@ -44,6 +44,3 @@ python photodownloader.py
 ```
 
 #### After you have completed these steps, photos should go into photos/ subfolders by username 
-
-### Have fun 
-
